@@ -1,0 +1,91 @@
+.Header2 {
+    background: var(--bg-color2);
+    color: var(--text-color);
+}
+
+.Header2 .Header-cont {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header2 .Header-cont .parent {
+    position: relative;
+    overflow: hidden;
+}
+.Header2 .Header-cont .parent:hover .Search{
+    display: none;
+}
+
+.Header2 .Header-cont .parent input {
+    width: 436px;
+    border-radius: 21px;
+    height: 41px;
+}
+
+.Header2 .Header-cont .parent .Search {
+    position: absolute;
+    left: 3%;
+    bottom: 21%;
+    font-size: 26px;
+
+}
+
+.Header2 .Header-cont .parent select {
+   position: absolute;
+    right: 1px;
+    top: 0px;
+    padding: 11px 7px;
+    border-radius: 3px;
+    outline: none;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    background: var(--bg-color);
+    width: 82px;
+    font-size: 13px;
+    color: var(--text-color);
+
+}
+.Header2 .Header-cont .icon-header2{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+}
+.Header2 .Header-cont .icon-header2 .user{
+    padding-left: 20px;
+}
+.Header2 .Header-cont .icon-header2 span{
+    margin-left: 20px;
+    display: block;
+}
+@media(max-width:750px){
+   .Header2 .Header-cont .parent input {
+    width: 260px;
+   }
+}
+@media(max-width:500px){
+   .Header2 .Header-cont .parent input {
+    width: 190px;
+     height: 30px;
+   }
+   .Header2 .Header-cont .parent select {
+    padding: 6px 0px;
+   }
+   .Header2 .Header-cont .parent .Search {
+    font-size: 16px;
+   }
+}
+@media(max-width:370px){
+  .Header2 .Header-cont .parent input{
+     width: 170px;
+     height: 25px;
+  }
+     .Header2 .Header-cont .parent select {
+    padding: 4px 0px;
+   }
+   .Header2 .Header-cont .parent .Search {
+    font-size: 12px;
+   }
+}

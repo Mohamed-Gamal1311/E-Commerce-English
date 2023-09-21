@@ -1,0 +1,173 @@
+.Cart{
+    padding-top: 4%;
+}
+.Cart .car-title{
+    background: #0481ff;
+    color: white;
+    border-radius: 19px;
+    height: 56px;
+   
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.display-none{
+    display: none;
+}
+    .Cart .position-cart  .header-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background: var(--bg-color);
+        color: var(--text-color);
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    .Cart .position-cart  .header-cart h2{
+        width: 16%;
+        text-align: center;
+
+    }
+    .Cart .position-cart  .header-cart  .prouduct-cart{
+     
+        padding-left: 5px;
+    }
+    .Cart .position-cart  .header-cart .delet-cart{
+        padding-right: 5px;
+    }
+    .Cart .position-cart .cart-ppp .text-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100px;
+
+    }
+    .Cart .position-cart .cart-ppp .text-cart .Box-cart{
+        width:16%;
+        text-align: center;
+       height: 90px;
+        background: var(--bg-color);
+        color: var(--text-color);
+       margin-bottom: 0px;
+       margin-top: 12px;
+       border-radius: 10px;
+       height: 90px;
+     
+    }
+    .Cart .position-cart .cart-ppp .text-cart .Box-cart img{
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 50%;
+       
+        
+    }
+    .Cart .position-cart .cart-ppp .text-cart .total{
+        
+        padding-top: 30px;
+    }
+    .Cart .position-cart .cart-ppp .text-cart .delet{
+       
+        padding-top: 30px;
+       color: rgb(243, 11, 11);
+ 
+    }
+    .Cart .position-cart .cart-ppp .text-cart .quantity{
+        padding-top: 30px;
+    }
+    .Cart .position-cart .cart-ppp .text-cart .price{
+        padding-top: 30px;
+    }
+    .Cart .position-cart .cart-ppp .text-cart .title{
+        padding-top: 1%;
+    }
+    .Cart .position-cart .total-bill{
+        margin-top: 10px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        width: 60%;
+        margin: auto;
+        margin-top: 45px;
+        height: 200px;
+        
+      
+    }
+    .Cart .position-cart .total-bill .para-cart{
+        text-align: center;
+    }
+    .Cart .position-cart .total-bill .flex-cart{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .Cart .position-cart .total-bill button{
+       
+        background: #0481ff;
+        padding: 5px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Cart .position-cart .total-bill button:hover{
+        background: white;
+        color: #0481ff;
+    }
+    .Cart .position-cart .total-bill .btn-buy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .message{
+        padding-top: 8px;
+        text-align: center;
+    }
+    @media(max-width:900px){
+        .Cart .position-cart  .header-cart h2{
+            font-size: 13px;
+        }
+        .Cart .position-cart .text-cart h3{
+            font-size: 13px;
+        }
+       
+        .Cart .position-cart .cart-ppp .text-cart
+        .Cart .position-cart .total-bill h1 {
+            font-size: 22px;
+        }
+        .Cart .position-cart .total-bill .flex-cart h3{
+            font-size: 15px;
+        }
+        .Cart .position-cart .total-bill button{
+            font-size: 13px;
+            padding: 2px 13px;
+        }
+        .Cart .car-title{
+            font-size: 20px;
+            height: 40px;
+        }
+    }
+    @media(max-width:400px){
+        .Cart .position-cart  .header-cart h2{
+            font-size: 10px;
+        }
+        .Cart .position-cart .text-cart h3{
+            font-size: 10px;
+        }
+        .Cart .position-cart .total-bill button{
+            font-size: 10px;
+            padding: 1px 7px;
+        }
+        .Cart .car-title{
+            font-size: 15px;
+            height: 40px;
+        }
+        
+    }

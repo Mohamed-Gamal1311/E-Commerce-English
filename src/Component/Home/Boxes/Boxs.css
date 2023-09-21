@@ -1,0 +1,52 @@
+.boxs{
+    padding-top: 2%;
+    background: var(--bg-color);
+    
+}
+.boxs .boxcon{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxs .boxcon .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(198 180 180);
+    width: 19%;
+   
+    
+}
+.boxs .boxcon .box .icon{
+    font-size: 35px;
+    
+    padding-left: 3px;
+  
+
+}
+.boxs .boxcon .box .text{
+padding-right: 4px;
+}
+
+
+@media(max-width:1250px){
+    .boxs .boxcon{
+        flex-wrap: wrap;
+    }
+    .boxs .boxcon .box{
+        width: 47%;
+        margin-bottom : 10 px;
+
+    }
+}
+@media(max-width:700px){
+    
+    .boxs .boxcon .box{
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+}

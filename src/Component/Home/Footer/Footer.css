@@ -1,0 +1,27 @@
+.footer1{
+    background: #123;
+ color: white;
+}
+.footer1 .footer1-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer1 .footer1-cont .cart-footer{
+  width: 32%;
+}
+.footer1 .footer1-cont .icon-footer{
+  font-size: 50px;
+  text-align: center;
+}
+.footer1 .footer1-cont .text-footer{
+  font-size: 25px;
+   text-align: center;
+}
+@media(max-width:1200px){
+  .footer1 .footer1-cont .cart-footer{
+  width: 100%;
+}
+
+}

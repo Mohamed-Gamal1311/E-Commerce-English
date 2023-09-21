@@ -1,0 +1,120 @@
+.Header3{
+padding-top: 3%;
+
+    background: var(--bg-color2);
+    color: var(--text-color);
+   
+
+    
+}
+.Header3 .Header3-cont{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.Header3 .Header3-cont .parent-h3{
+    width: 24%;
+}
+.Header3 .Header3-cont .btn-Header3 {
+    padding: 16px 0px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.Header3 .Header3-cont .btn-Header3 .text{
+   
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    font-size: 17px;
+
+}
+.Header3 .Header3-cont .btn-Header3 .window{
+position: absolute;
+left: 10px;
+
+}
+.Header3 .Header3-cont .btn-Header3 .arrow{
+    position: absolute;
+    right: 4px;
+}
+.Header3 .Header3-cont .menu-Header3{
+    box-shadow: 0 5px 15px rgb(198 180 180);
+    width: 200px;
+    display: none;
+   
+}
+.Header3 .Header3-cont .menu-Header3 div{
+     padding-left: 10px;
+    margin-bottom: 15px;}
+    .Header3 .Header3-cont .menu-Header3 div:hover{
+        transform: scale(1.1);
+        border-radius: 5px;
+        background: whitesmoke;
+    }
+    .Header3 .Header3-cont .ggggg{
+        width: 50%;
+    }
+    .Header3 .Header3-cont .ggggg ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header3 .Header3-cont .ggggg ul li{
+        list-style: none;
+    }
+    .Header3 .Header3-cont .icon-menu{
+        font-size: 40px;
+        display: none;
+    }
+    @media(max-width:1100px){
+        .Header3 .Header3-cont .ggggg ul{
+            margin-top: 5%;
+            flex-direction: column;
+            position: fixed;
+            top: 30vh;
+            z-index: 99999;
+            right: -300px;
+            color: white;
+            width: 300px;
+            background: rgb(24 23 23 / 94%);
+            height: 60vh;
+            padding: 0px;
+            border-radius: 20px;
+            transition: all .4s ease-in-out;
+            box-shadow: 0 5px 15px rgb(198 180 180)
+
+        }
+        .Header3 .Header3-cont .icon-menu{
+            display: block;
+        }
+        
+        .Header3 .Header3-cont .ggggg ul li:hover {
+            border-radius: 28px;
+            box-shadow: 0 5px 15px rgb(198 180 180);
+            width: 50%;
+            height: 11%;
+            text-align: center;
+            padding-top: 2%;
+            margin-top: 4%;
+            margin-bottom: 7%;
+        }
+    }
+    @media(max-width:540px){
+        .Header3 .Header3-cont .menu-Header3 div{
+            font-size: 12px;
+        }
+        .Header3 .Header3-cont .menu-Header3{
+            width: 125px
+        }
+        .Header3 .Header3-cont .btn-Header3{
+            width: 125px;
+          
+        }
+    }

@@ -1,0 +1,6 @@
+.rating input {
+    display: none;
+}
+.rating .star {
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.toggle{
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  box-shadow: inset 10px 10px 15px #a7aaaf,
+              inset -10px -10px 15px #ffffff;
+    width: 58px;
+    height: 27px;
+}
+
+.toggle  input{  
+      width: 50px;
+    height: 44px;
+cursor: pointer;
+opacity: 0;
+}
+
+.toggle label{
+position: relative;
+width: 100%;
+transition: all 0.4s;
+pointer-events: none;
+box-shadow: 0px 0px 0px#f0edf1;
+transition: all 0.4s;
+pointer-events: none;
+
+}
+
+.toggle .icon .sun{
+    position: absolute;
+    font-size: 22px;
+    top: -87px;
+   
+    right: 34px;
+    color: gold;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 15px #242629;
+    transition: all 0.4s;
+}
+    
+.toggle .icon .moon{
+    position: absolute;
+    font-size: 22px;
+    top: -87px;
+    right: 1px;
+    opacity: 0;
+    color: black;
+    border-radius: 13px;
+    box-shadow: inset 10px 10px 87px #7c818cf0;
+    transition: all 0.4s;
+
+}
+   .toggle input:checked + label .moon{
+    opacity: 1;
+   
+    right: 5px;
+    left: 30px;
+    transform: translate(5px) rotate(360deg);
+   
+   }
+   .toggle input:checked + label .sun{
+    opacity: 0;
+    transform: translate(80px) rotate(360deg);
+   }
+   .toggle input :checked + .icon{
+    transform: translate(80px) rotate(360deg);
+   }
+   @media(max-width:1000px){
+    .toggle .icon .sun{
+       
+    top: -66px;
+    right: 32px;
+    }
+    .toggle .icon .moon{
+        
+    top: -66px;
+    right: 32px;
+    }
+   }
+   @media(max-width:500px){
+  
+    .toggle .icon .sun{
+       
+    top: -58px;
+    right: 32px;
+    }
+    .toggle .icon .moon{
+        
+    top: -58px;
+    right: 32px;
+    }
+   }
+   
+   
+

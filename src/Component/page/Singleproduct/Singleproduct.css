@@ -1,0 +1,111 @@
+.single-product{
+    padding-top: 5%;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.single-product .single-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65vh;
+    flex-wrap: wrap;
+}
+.single-product .single-cont .single-im{
+    width: 48%;
+   
+    height: 65vh;
+}
+.single-product .single-cont .single-im img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 40px;
+}
+.single-product .single-cont .discription{
+    width: 48%;
+    text-align: center;
+}
+.single-product .single-cont .discription h5{
+    color: rgb(175, 74, 74);
+    font-size: 30px;
+}
+.single-product .single-cont .discription p{
+    font-size: 25px;
+}
+.single-product .single-cont .discription .cart-sin{
+    padding: 7px 24px;
+    border-radius: 10px;
+    background: #0481ff;
+    color: white;
+    font-size: 20px;
+}
+.single-product .single-cont .discription .ppppsin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.single-product .single-cont .discription .ppppsin .incr ,.decr{
+    border: none;
+    font-size: 25px;
+ color: #0481ff;
+} 
+.single-product .single-cont .discription .ppppsin .get {
+ font-size: 35px;
+ background-color: #0481ff;
+ color: white;
+ width: 44px;
+ border-radius: 50%;
+}
+.single-product .single-cont .discription .ppppsin .remove{
+    padding: 3px 13px;
+    background: rgb(198, 84, 84);
+    color: white;
+ 
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+@media(max-width:1000px){
+.single-product .single-cont .single-im{
+    width: 100%;
+}
+.single-product .single-cont .discription{
+    width: 100%;
+}
+}
+@media(max-width:600px){
+    .single-product .single-cont .single-im{
+        height: 40vh;
+    }
+    .single-product .single-cont .discription h2{
+      
+        font-size: 15px;
+    }
+    .single-product .single-cont .discription h5{
+      
+        font-size: 15px;
+    }
+    .single-product .single-cont .discription p{
+        font-size: 10px;
+    }
+    .single-product .single-cont .discription .ppppsin .incr ,.decr{
+       
+        font-size: 17px;
+    } 
+    .single-product .single-cont .discription .ppppsin .get {
+        font-size: 21px;
+        width: 33px;
+        margin-bottom: 13px;
+       }
+       .single-product .single-cont .discription .ppppsin .remove{
+        padding: 2px 9px;
+       
+        font-size: 15px;
+    }
+}

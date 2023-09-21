@@ -1,0 +1,98 @@
+.Header1{
+    background: #2B3445;
+    height: 10vh;
+}
+.Container{
+    width: 80%;
+    margin: auto;
+}
+.Header1 .Header1-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header1 .Header1-cont .text-Header1 button{
+    
+    padding: 6px 15px;
+    border-radius: 15px;
+    background: red;
+    color: white;
+    font-size: 21px;
+
+}
+
+.Header1 .Header1-cont .text-Header1 span{
+   color: white;
+   padding-left: 15px;
+}
+.Header1 .Header1-cont .link-Header1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items:center ;
+    height: 10vh;
+}
+.Header1 .Header1-cont .link-Header1 li{
+   margin-right: 11px;
+    font-size: 30px;
+}
+.Header1 .Header1-cont .link-Header1 .image-header1{
+  
+  position: relative;
+  height: 3vh;
+}
+
+.Header1 .Header1-cont .link-Header1 .lang{
+    border-radius: 30px;
+    
+}
+button, input, optgroup, select, textarea {
+
+     font-family:'Times New Roman', Times, serif ; 
+     font-size: 20px; }
+   
+@media(max-width:1000px){
+    .Header1 .Header1-cont .link-Header1 li{
+        margin-right: 8px;
+        font-size: 16px;
+     }
+     .Header1 .Header1-cont .text-Header1 button{
+    
+        padding: 4px 10px;
+        
+        font-size: 15px;
+    
+    }
+    
+    .Header1 .Header1-cont .text-Header1 span{
+       font-size: 12px;
+    }
+    
+}
+@media(max-width:500px){
+    .Header1 .Header1-cont .link-Header1 li{
+        margin-right: 6px;
+        font-size: 10px;
+     }
+     .Header1 .Header1-cont .text-Header1 button{
+    
+        padding: 2px 6px;
+        
+        font-size: 10px;
+    
+    }
+    
+    .Header1 .Header1-cont .text-Header1 span{
+       font-size: 9px;
+       display: block;
+    }
+    .Header1 .Header1-cont .link-Header1 .image-header1{
+  
+        height: 2vh;
+      }
+      .Header1 .Header1-cont .link-Header1 .lang{
+        border-radius: 50px;
+        width: 37px;
+        font-size: 9px
+    }
+}
